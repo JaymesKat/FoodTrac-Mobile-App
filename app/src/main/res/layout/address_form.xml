@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.goka.walker.WalkerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/walker"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:scrollbars="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="@string/addressInformation"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <!--Put form controls here-->
+        <EditText
+            android:text="@string/contactNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"/>
+        <EditText
+            android:text="@string/anotherNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"/>
+        <AutoCompleteTextView
+            android:id="@+id/village"
+            android:layout_height="wrap_content"
+            android:text="@string/village"
+            android:inputType="textAutoComplete"
+            android:layout_width="match_parent">
+        </AutoCompleteTextView>
+        <AutoCompleteTextView
+            android:id="@+id/parish"
+            android:layout_height="wrap_content"
+            android:text="@string/parish"
+            android:inputType="textAutoComplete"
+            android:layout_width="match_parent">
+        </AutoCompleteTextView>
+        <AutoCompleteTextView
+            android:id="@+id/subcounty"
+            android:layout_height="wrap_content"
+            android:text="@string/subcounty"
+            android:inputType="textAutoComplete"
+            android:layout_width="match_parent">
+        </AutoCompleteTextView>
+    </LinearLayout>
+</ScrollView>
+</com.goka.walker.WalkerLayout>

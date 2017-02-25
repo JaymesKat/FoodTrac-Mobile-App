@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">SmartKYC</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="dateOfBirth">Date of Birth</string>
+
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="single">Single</string>
+    <string name="married">Married</string>
+    <string name="family_size">Family Size</string>
+    <string name="native_language">Native Language</string>
+    <string name="preferred_language">Preferred Language</string>
+    <string name="maritalStatus">Marital Status</string>
+    <string name="Gender">Gender</string>
+    <string name="personalInformation">Personal Details</string>
+    <string name="addressInformation">Address Details</string>
+    <string name="ifMarried">If Married</string>
+    <string name="contactNumber">Mobile Number</string>
+    <string name="village">Village</string>
+    <string name="parish">Parish</string>
+    <string name="subcounty">Subcounty</string>
+    <string name="produce">Produce (In tonnes)</string>
+    <string name="registeredOWC">Registered under OWC</string>
+    <string name="farmType">Farm Type</string>
+    <string name="farmInformation">Farm Details</string>
+    <string name="farmCategory">Farm Category</string>
+    <string name="acreage">Acreage</string>
+    <string name="anotherNumber">Other contact</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="genderlist">
+        <item>@string/male</item>
+        <item>@string/female</item>
+    </string-array>
+
+    <string-array name="farm_category_array">
+        <item>Subsistence Farming</item>
+        <item>Commercial Small Scale</item>
+        <item>Commercial Medium Scale</item>
+        <item>Commercial Large Scale</item>
+    </string-array>
+    <string-array name="farm_type_array">
+        <item>Arable Farming</item>
+        <item>Pastoral Farming</item>
+        <item>Mixed Farming</item>
+    </string-array>
+
+    <string-array name="acreage_array">
+        <item>Less than 4 acres</item>
+        <item>4-10</item>
+        <item>11-20</item>
+        <item>21-35</item>
+        <item>36-50</item>
+        <item>51-80</item>
+        <item>81-110</item>
+        <item>More than 110</item>
+    </string-array>
+
+    <string-array name="produce_array">
+        <item>Less than 100</item>
+        <item>100-250</item>
+        <item>250-750</item>
+        <item>750-1000</item>
+        <item>1000-2000</item>
+        <item>2000-4000</item>
+        <item>4000-8000</item>
+        <item>More than 8000</item>
+    </string-array>
+</resources>
